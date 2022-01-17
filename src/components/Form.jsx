@@ -83,7 +83,7 @@ export default class Form extends Component {
             </div>
             <div className="col-md-3 col-sm-12 col-12 my-2">
               <button
-                className="btn btn-outline-secondary w-100"
+                className="btn btn-outline-primary w-100"
                 type="submit"
                 id=""
               >

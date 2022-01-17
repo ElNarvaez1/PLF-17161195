@@ -15,13 +15,11 @@ export default class Header extends Component {
 
   render() {
     return (
-      <div className="container-fluid bg-light">
+      <div className="container-fluid bg-light shadow">
         <div className="container">
           <nav className="navbar navbar-expand-md navbar-light bg-light">
             <div className="container-fluid">
-              <a className="navbar-brand" href="/TInvII">
-                Programación logica y funcinal 🎮 
-              </a>
+              <a className="navbar-brand" href="/#">🎮 Programación logica y funcinal</a>
               <button
                 className="navbar-toggler"
                 type="button"

@@ -13,7 +13,7 @@ const Paginate = (props) => {
     window.location.reload();
   }
 
-  if (props.gamesDeals == 0) {
+  if (props.gamesDeals == 0 && props.page > 0) {
     return (
       <nav aria-label="Page navigation">
         <ul className="pagination">

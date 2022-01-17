@@ -20,7 +20,7 @@ export default function AcercaDe() {
   return (
     <section>
       <div className="container mb-1">
-        <h1 className="h4 text-start my-3 ">Desarrolladores.</h1>
+        <h1 className="h4 text-start my-3 ">Desarrollador.</h1>
         <div className="row justify-content-around">
           {desarrolladores.map((desarrollador, index) => (
             <Avatar
